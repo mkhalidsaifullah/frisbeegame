@@ -1,0 +1,23 @@
+header {
+  background-color: #7c7bb9;
+}
+h1 {
+  color: #043305;
+  text-align: center;
+}
+a {
+  color: #d2302d;
+  background-color: #052538;
+}
+
+h2 {
+  color: #2d30d2;
+}
+
+section {
+  background-color: #a3bea3;
+}
+
+aside {
+  display: none;
+}
