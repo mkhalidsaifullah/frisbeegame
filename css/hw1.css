@@ -65,8 +65,44 @@ aside a img {
   width: 85%;
   margin: 15px;
 }
+
 .right {
   font-size: 25px;
   margin: 5px;
   height: 80vh;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 2px;
+  border-style: solid;
+  border-color: #fff;
+}
+
+tr {
+  text-align: center;
+  opacity: 0.6;
+}
+
+tr:hover {
+  opacity: 0.9;
+}
+
+tr :first-child {
+  text-align: left;
+}
+
+th {
+  background-color: rgb(64, 226, 85);
+  border-bottom: 5px solid #008000;
+  font-weight: bold;
+  color: #fff;
+}
+table {
+  background-color: #99e599;
+  border-collapse: collapse;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
 }
